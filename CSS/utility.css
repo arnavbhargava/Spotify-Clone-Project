@@ -1,0 +1,91 @@
+.border {
+    border: 2px solid red;
+    /* margin: 3px; */
+}
+
+.flex {
+    display: flex;
+    /* gap: 3px; */
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+/* .m-1 {
+    margin: 5px;
+} */
+
+.p-1 {
+    padding: 15px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+    visibility: hidden;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    visibility: hidden;
+    border-radius: 2px;
+  }
+
+
+  /* For Webkit browsers (e.g., Chrome, Safari) */
+
+ 
+  div.library:hover {
+    ::-webkit-scrollbar {
+        width: 12px;
+        visibility: visible;
+  }
+  
+::-webkit-scrollbar-thumb {
+    /* background-color: #333;  */
+    visibility: visible;
+}
+}
+
+div.spotifyPlaylists:hover {
+    ::-webkit-scrollbar {
+        width: 12px;
+        visibility: visible;
+  }
+  
+::-webkit-scrollbar-thumb {
+    /* background-color: #333;  */
+    visibility: visible;
+}
+}
+
+
+/* Dark color for the thumb */
+/* border-radius: 2px; */
+
